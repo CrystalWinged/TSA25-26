@@ -23,6 +23,7 @@
 }
 .top h1 {
   font-size: 35px;
+ text-align:center;
 }
 /* timeline */
 .timeline{
