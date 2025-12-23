@@ -1,16 +1,11 @@
 .logo {
-  width: 70vw;
-  aspect-ratio: 16/9;
+  width: 40vw;
   max-width:1000px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   margin: 20px auto; 
   background-image: url("images/GC.png");
   background-size: cover;
   background-position: left;
-  display: block;
   background-repeat: no-repeat;
 
 } 
