@@ -1,9 +1,9 @@
 .logo {
- 
+ background-position: center;
   background-image: url("images/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 200px;
+  width: 230px;
   height: 200px;
 } 
 .header {
