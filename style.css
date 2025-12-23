@@ -3,7 +3,8 @@
   background-image: url("images/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
-
+  width: 200px;
+  height: 200px;
 } 
 .header {
   background-color:#c8e8de;
