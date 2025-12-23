@@ -2,5 +2,6 @@
   background-color:#ffe5e0;
 }
 .header a {
-  font-size: 25px;
+  font-size: 25vw;
+  text-align:center;
 }
