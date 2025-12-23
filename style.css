@@ -24,3 +24,13 @@
 .top h1 {
   font-size: 35px;
 }
+/* timeline */
+.timeline{
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 25px;
+  display: grid;
+  grid-column-templates: 1fr 3px 1fr;
+  font-family: 'Fira Sans', sans-serif;
+  color: "black";
+}
