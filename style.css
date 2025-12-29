@@ -15,8 +15,10 @@
   gap: 20px;
 }
 .header a {
+  color:white;
   font-size: 25px;
-  
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
 .top {
   background-color:#c8e8de;
