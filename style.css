@@ -39,17 +39,27 @@
   font-size: 35px;
  text-align:center;
 }
-/* timeline 
-.timeline{
-  margin: 0 auto;
-  max-width: 730px;
-  padding: 25px;
-  display: grid;
-  grid-column-templates: 1fr 3px 1fr;
-  font-family: 'Fira Sans', sans-serif;
-  color: "black";
+ 
+.people{
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear:both;
 }
-*/
+.p1 {
+  background-image: url("");
+   width: 30%;
+  aspect-ratio: 8/8;
+ color: white;
+  margin: 0; 
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 * {
   box-sizing: border-box;
 }
