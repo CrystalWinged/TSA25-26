@@ -20,7 +20,7 @@
   border: 2px solid #ccc;
   border-radius: 10px;
 }
-.subheaders a{
+.subheaders {
   width: 40%;
   aspect-ratio: 8/8;
   color: white;
