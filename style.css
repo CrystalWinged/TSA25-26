@@ -48,6 +48,10 @@
   flex-wrap: wrap;
   clear:both;
 }
+.sect {
+ width:30%;
+ color: white;
+}
 .i1 {
   background-image: url("images/GeorgeHabib.png");
    width: 30%;
