@@ -44,7 +44,7 @@
   display: flex;
   margin-top: 20px;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex start;
   flex-wrap: wrap;
   clear:both;
 }
