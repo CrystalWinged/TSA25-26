@@ -1,24 +1,24 @@
 .html {
- background-color:white;
+  background-color: white;
 }
 .logo {
- margin: 0 auto;
+  margin: 0 auto;
   background-image: url("images/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 230px;
   height: 200px;
- text-align:center;
-} 
+  text-align: center;
+}
 .header {
-  background-color:#c8e8de;
-  text-align:center;
+  background-color: #c8e8de;
+  text-align: center;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 .header a {
-  color:white;
+  color: white;
   font-size: 25px;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -27,99 +27,63 @@
   width: 40%;
   aspect-ratio: 8/8;
   color: white;
-  margin: 0; 
+  margin: 0;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .top {
-  background-color:#c8e8de;
+  background-color: #c8e8de;
 }
 .top h1 {
   font-size: 35px;
- text-align:center;
+  text-align: center;
 }
- 
-.people{
+
+.people {
   display: flex;
   margin-top: 20px;
   gap: 20px;
   justify-content: flex start;
   flex-wrap: wrap;
-  clear:both;
+  clear: both;
 }
 .sect {
- width:30%;
- color: white;
+  width: 30%;
+  color: white;
 }
 .i1 {
-  background-image: url("images/GeorgeHabib.png"); 
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("images/GeorgeHabib.png");
 }
 .i3 {
   background-image: url("images/Madelyn_Cline.jpg");
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .i5 {
   background-image: url("images/Brandon_Shell.jpg");
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .i6 {
   background-image: url("images/Justin_Smoak.jpg");
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .i7 {
   background-image: url("images/Matt_Wieters.jpg");
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .i8 {
   background-image: url("images/OsamaSon.jpg");
-  aspect-ratio: 8/8;
- color: white;
-  margin: 0; 
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 * {
   box-sizing: border-box;
+}
+
+.people section {
+  border-radius: 10px;
+  color: white;
+  aspect-ratio: 8/8;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -136,7 +100,7 @@ body {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   background-color: white;
@@ -156,13 +120,13 @@ body {
 
 /* The circles on the timeline */
 .container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -221,19 +185,19 @@ body {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-/* Place the timelime to the left */
+  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
 
-/* Full-width containers */
+  /* Full-width containers */
   .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
 
-/* Make sure that all arrows are pointing leftwards */
+  /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
     border: medium solid white;
@@ -241,14 +205,14 @@ body {
     border-color: transparent white transparent transparent;
   }
 
-/* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
     left: 15px;
   }
 
-/* Make all right containers behave like the left ones */
+  /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
   }
 }
-
