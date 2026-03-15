@@ -36,14 +36,6 @@
 .header h1 {
   margin-right: auto;
 }
-.subheaders {
-  width: 40%;
-  aspect-ratio: 8/8;
-  color: white;
-  margin: 0;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
 
 .top {
   background-color: #c8e8de;
@@ -199,6 +191,42 @@ body {
   background-color: white;
   position: relative;
   border-radius: 6px;
+}
+
+#ref {
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#ref a {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid black;
+
+  background-color: #c8e8de;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.subheader {
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.subheader a {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid black;
+
+  background-color: #c8e8de;
+  width: 100%;
+  overflow-wrap: anywhere;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
