@@ -107,6 +107,17 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.i8 {
+  background-image: url("images/OsamaSon.jpg");
+  aspect-ratio: 8/8;
+ color: white;
+  margin: 0; 
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 * {
   box-sizing: border-box;
 }
