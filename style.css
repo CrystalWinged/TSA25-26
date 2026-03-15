@@ -11,6 +11,8 @@
   text-align: center;
 }
 .header {
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #c8e8de;
   text-align: center;
   display: flex;
@@ -18,10 +20,21 @@
   gap: 20px;
 }
 .header a {
-  color: white;
+  color: black;
   font-size: 25px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
+  padding: 5px;
+  align-self: center;
+  justify-content: flex-end;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+}
+.header a:hover {
+  background-color: #a0c8b0;
+  border-radius: 3px;
+}
+.header h1 {
+  margin-right: auto;
 }
 .subheaders {
   width: 40%;
@@ -76,6 +89,7 @@
 
 .people section {
   border-radius: 10px;
+  border: 2px solid black;
   color: white;
   aspect-ratio: 8/8;
   margin: 0;
@@ -84,6 +98,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.people h2 {
+  height: 20px;
 }
 
 body {
