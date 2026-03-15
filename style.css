@@ -159,11 +159,12 @@ body {
 }
 
 
-.left::after {
+.left::before {
   content: " ";
   height: 4px;
   position: absolute;
   top: 25px;
+  right:40px
   width: 40px;
   background:#c8e8de;
 }
@@ -175,7 +176,7 @@ body {
   position: absolute;
   top: 25px;
   width:40px;
-  left:40px;
+  right:40px;
   background:#c8e8de;
 }
 
