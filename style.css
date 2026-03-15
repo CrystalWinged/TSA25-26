@@ -164,7 +164,7 @@ body {
   height: 4px;
   position: absolute;
   top: 25px;
-  left:100%;
+  right:0%;
   width: 40px;
   background:#c8e8de;
 }
