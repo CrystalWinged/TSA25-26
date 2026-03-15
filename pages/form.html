@@ -2,18 +2,25 @@
 <html>
   <head>
     <link href="/style.css" rel="stylesheet" type="text/css" />
-    <title>Map</title>
+    <title>Form</title>
   </head>
   <body>
     <section class="header">
-      <h1>Map</h1>
+      <h1>Form</h1>
       <a href="/index.html"> Home </a>
       <a href="Timeline.html"> Timeline </a>
       <a href="people.html"> Important People </a>
-      <a href="map.html"> Map </a>
       <a href="events.html"> Events </a>
       <a href="ref.html"> References </a>
       <a href="form.html"> Form </a>
     </section>
+
+    <form action="/submit_form" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
