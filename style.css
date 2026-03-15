@@ -161,29 +161,23 @@ body {
 
 .left::before {
   content: " ";
-  height: 0;
+  height: 4px;
   position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;;
+  top: 25px;
+  width: 40px;
+  right: -40px;
+  background:#c8e8de;
 }
 
 
 .right::before {
   content: " ";
-  height: 0;
+  height: 4px;
   position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  top: 25px;
+  width:40px;
+  left: -40px;
+  background:#c8e8de;
 }
 
 .right::after {
