@@ -53,6 +53,9 @@
   flex-wrap: wrap;
   clear: both;
 }
+.people h1 {
+  color:white;
+}
 .sect {
   width: 30%;
   color: white;
