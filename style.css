@@ -261,3 +261,6 @@ body {
   background-color: #c8e8de;
   display: flex;
 }
+#highlights section{
+   aspect-ratio: 4/3;
+}
