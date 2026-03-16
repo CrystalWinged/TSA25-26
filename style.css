@@ -262,7 +262,7 @@ body {
   display: flex;
 }
 #highlights section{
-  width:25%;
+  width:80%;
   border-radius: 10px;
   border: 2px solid black;
   color: white;
