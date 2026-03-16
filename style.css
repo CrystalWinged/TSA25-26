@@ -87,6 +87,15 @@
 .i9 {
   background-image: url("images/Natalie_Zeigler.jpg");
 }
+.p1 {
+  background-image: url("images/part1.png");
+}
+.p2 {
+  background-image: url("images/part2.png");
+}
+.p3 {
+  background-image: url("images/part3.png");
+}
 * {
   box-sizing: border-box;
 }
