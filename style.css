@@ -274,3 +274,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+#highlights section a{
+  display:block;
+  height:100%;
+  width:100%;
+}
