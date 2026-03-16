@@ -262,7 +262,8 @@ body {
   display: flex;
 }
 #highlights section{
-   border-radius: 10px;
+  width:25%;
+  border-radius: 10px;
   border: 2px solid black;
   color: white;
   aspect-ratio: 4/3;
